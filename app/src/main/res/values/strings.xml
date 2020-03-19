@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="firstNumLabelStr">Enter the first number:</string>
+    <string name="firstNumHint">Enter a number</string>
+    <string name="secondNumLabelStr">Enter the second number:</string>
+    <string name="addStr">ADD</string>
+    <string name="divStr">DIV</string>
+    <string name="subStr">SUB</string>
+    <string name="multStr">MULT</string>
+    <string name="answerLabelStr">Answer:</string>
+
+</resources>
