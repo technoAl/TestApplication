@@ -42,5 +42,16 @@ public class QuestionActivity extends AppCompatActivity {
 
     }
 
+    public void performNext(View v){
+        final Controller aController = (Controller) getApplicationContext();
+        q = aController.getQuestion();
+        TextView questionText = findViewById(R.id.questionText);
+        questionText.setText(q.getQuestion());
+
+        Button answerButton = findViewById(R.id.answerButton);
+        answerButton.setBackgroundColor(Color.GRAY);
+        answerButton.setText("Check Answer");
+    }
+
 
 }
