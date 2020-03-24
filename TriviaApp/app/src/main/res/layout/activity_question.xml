@@ -38,6 +38,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
+        android:onClick="performCheckAnswer"
         android:text="@string/checkAnswerStr"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
